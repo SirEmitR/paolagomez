@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(168,199,126);
+    background: -moz-linear-gradient(45deg, rgba(168,199,126,1) 0%, rgba(140,227,107,1) 23%, rgba(179,214,163,1) 49%, rgba(182,209,149,1) 66%, rgba(159,198,114,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(168,199,126,1) 0%, rgba(140,227,107,1) 23%, rgba(179,214,163,1) 49%, rgba(182,209,149,1) 66%, rgba(159,198,114,1) 100%);
+    background: linear-gradient(45deg, rgba(168,199,126,1) 0%, rgba(140,227,107,1) 23%, rgba(179,214,163,1) 49%, rgba(182,209,149,1) 66%, rgba(159,198,114,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8c77e",endColorstr="#9fc672",GradientType=1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    
+
+}
+
+#background{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/bg-preview.jpeg');
+    filter: blur(1px);
+    filter: brightness(0.6);
+    animation: gradient 30s ease infinite;
+    background-size: 120% 120%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.animate-charcter
+{
+  background-image: linear-gradient(
+    -225deg,
+    #d2dfd2 0%,
+    #a2cc98 29%,
+    #98a295 67%,
+    #6b8676 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.animated-balls{
+    position: absolute;
+      border-radius: 100px;
+  }
+.loader-dots, .loader-dots:before, .loader-dots:after {
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    animation-fill-mode: both;
+    animation: bblFadInOut 1.8s infinite ease-in-out;
+  }
+  .loader-dots {
+    color: #fbfbfb;
+    font-size: 7px;
+    position: relative;
+    text-indent: -9999em;
+    transform: translateZ(0);
+    animation-delay: -0.16s;
+  }
+  .loader-dots:before,
+  .loader-dots:after {
+    content: '';
+    position: absolute;
+    top: 0;
+  }
+  .loader-dots:before {
+    left: -3.5em;
+    animation-delay: -0.32s;
+  }
+  .loader-dots:after {
+    left: 3.5em;
+  }
+  
+  @keyframes bblFadInOut {
+    0%, 80%, 100% { box-shadow: 1.5em 0 0 -1.3em }
+    40% { box-shadow:  1.5em 0 0 0 }
+  }
+
+  .animated-balls{
+    position: absolute;
+      border-radius: 100px;
+  }
+  
+  .aparicion{
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .hidden_lazy{
+    opacity: 0;
+    transform: scale(0);
+  }
+  
+  .lazy{
+    transition: all 1.3s ease;
+  }
+
+  .zoom-in-out{
+    animation: zoomInOut 2s ease-in-out infinite;
+  }
+
+  .gradient-green{
+    background: rgb(168,199,126);
+    background: -moz-linear-gradient(45deg, rgba(168,199,126,1) 0%, rgba(140,227,107,1) 23%, rgba(179,214,163,1) 49%, rgba(182,209,149,1) 66%, rgba(159,198,114,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(168,199,126,1) 0%, rgba(140,227,107,1) 23%, rgba(179,214,163,1) 49%, rgba(182,209,149,1) 66%, rgba(159,198,114,1) 100%);
+    background: linear-gradient(45deg, rgba(168,199,126,1) 0%, rgba(140,227,107,1) 23%, rgba(179,214,163,1) 49%, rgba(182,209,149,1) 66%, rgba(159,198,114,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a8c77e",endColorstr="#9fc672",GradientType=1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  .gradient-colors{
+    background: rgb(150,0,0);
+background: -moz-linear-gradient(66deg, rgba(150,0,0,1) 0%, rgba(81,82,0,1) 27%, rgba(13,108,0,1) 53%, rgba(0,88,82,1) 74%, rgba(66,24,158,1) 100%);
+background: -webkit-linear-gradient(66deg, rgba(150,0,0,1) 0%, rgba(81,82,0,1) 27%, rgba(13,108,0,1) 53%, rgba(0,88,82,1) 74%, rgba(66,24,158,1) 100%);
+background: linear-gradient(66deg, rgba(150,0,0,1) 0%, rgba(81,82,0,1) 27%, rgba(13,108,0,1) 53%, rgba(0,88,82,1) 74%, rgba(66,24,158,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#960000",endColorstr="#42189e",GradientType=1);
+background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(0.95);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.95);
+    }
+  }
