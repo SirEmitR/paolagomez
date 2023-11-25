@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <Observer />
     <section className='w-full flex flex-col gap-6'>
-    <h1 className={`${playFairDisplay.className} text-4xl text-gray-200 my-2 hidden_lazy lazy`}> Soy <strong className='animate-charcter'>Paola Gómez</strong>, arquitecta floral apasionada por la creación de experiencias únicas.</h1>
+    <h1 className={`${playFairDisplay.className} text-4xl text-gray-200 my-2 hidden_lazy lazy`}> Soy <strong className='animate-charcter'>Paola Gómez</strong>, diseñadora floral apasionada por la creación de experiencias únicas.</h1>
       <header className='w-full h-fit flex'>
         <Image src='/images/bienvenida.jpeg' alt='bienvenida' width={600} height={300} className='aspect-video object-contain hidden_lazy lazy' priority />
         </header>
