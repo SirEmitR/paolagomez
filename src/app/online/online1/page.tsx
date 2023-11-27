@@ -11,7 +11,6 @@ const Online1 = () => {
       <Observer />
       <div><h1 className={`${playFairDisplay.className} text-4xl text-gray-200 my-2 animate-charcter font-semibold hidden_lazy lazy`}>BOUQUETERIA el Arte de las envolturas Coreanas</h1>
       <p className='flex gap-2 items-center text-sm text-white font-semibold hidden_lazy lazy'><PlayPause className={`w-6 h-6 text-purple-500 rounded-full `}/> Curso online</p></div>
-      <p className='text-sm text-gray-50 hidden_lazy lazy'>Publicado el 16 de noviembre de 2023</p>
       <article>
         <p className='hidden_lazy lazy'>Soy <strong className='text-lg'>Paola Gómez</strong> <span className=' italic'>Diseñadora Floral</span> y para mi es un gusto poder compartir contigo mis conocimientos y experiencia para que puedas alcanzar tu sueño floral.</p>
         <p className='hidden_lazy lazy'>En este curso de Bouqueteria podrás encontrar todas la herramientas y técnicas necesarias poder lograr bouquet increíbles, con un diseño y estilo propio</p>
@@ -23,7 +22,7 @@ const Online1 = () => {
       </article>
       <Countdown data={{
         titulo:'Oferta por tiempo limitado',
-        fecha: 'November 30, 2023 23:30:00 GMT-0500'
+        fecha: 'December 15, 2023 23:30:00 GMT-0500'
       }} />
       <Link href='https://pay.hotmart.com/T73330605X?checkoutMode=2&off=tld2suya' target='_blank' className='p-4 px-6 rounded-full bg-green-500 text-white font-bold w-max transition-all hover:bg-green-700 hidden_lazy lazy'>Ir a comprar</Link>
       <video className='aspect-video sm:w-1/2 object-contain hidden_lazy lazy' controls>
