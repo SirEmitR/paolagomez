@@ -22,9 +22,9 @@ const Online1 = () => {
       </article>
       <Countdown data={{
         titulo:'Oferta por tiempo limitado',
-        fecha: 'December 15, 2023 23:30:00 GMT-0500'
+        fecha: 'February 15, 2023 23:30:00 GMT-0500'
       }} />
-      <Link href='https://pay.hotmart.com/T73330605X?checkoutMode=2&off=tld2suya' target='_blank' className='p-4 px-6 rounded-full bg-green-500 text-white font-bold w-max transition-all hover:bg-green-700 hidden_lazy lazy'>Ir a comprar</Link>
+      <Link href='https://pay.hotmart.com/T73330605X?off=fjtmlzyw' target='_blank' className='p-4 px-6 rounded-full bg-green-500 text-white font-bold w-max transition-all hover:bg-green-700 hidden_lazy lazy'>Ir a comprar</Link>
       <video className='aspect-video sm:w-1/2 object-contain hidden_lazy lazy' controls>
             <source src='https://firebasestorage.googleapis.com/v0/b/paolagomez-workshop.appspot.com/o/Introduccion.mp4?alt=media&token=ab760d75-794e-4970-b4c1-7186a97069fd' type='video/mp4' />
           </video>
@@ -50,8 +50,8 @@ const Online1 = () => {
       </article>
       <div className='w-full h-[4px] bg-white/60'></div>
       <div className='flex flex-col gap-4'>
-        <Link href='https://pay.hotmart.com/T73330605X?checkoutMode=2&off=tld2suya' target='_blank' className='p-4 px-6 rounded-full bg-green-500 text-white font-bold w-max transition-all hover:bg-green-700 hidden_lazy lazy'>Quiero aprender, ir a comprar</Link>
-        <p>O bien has click al enlace <Link href={'https://pay.hotmart.com/T73330605X?checkoutMode=2&off=tld2suya'} target='_blank' className='underline text-blue-200 hidden_lazy lazy'>https://pay.hotmart.com/T73330605X?checkoutMode=2&off=tld2suya</Link></p>
+        <Link href='https://pay.hotmart.com/T73330605X?off=fjtmlzyw' target='_blank' className='p-4 px-6 rounded-full bg-green-500 text-white font-bold w-max transition-all hover:bg-green-700 hidden_lazy lazy'>Quiero aprender, ir a comprar</Link>
+        <p>O bien has click al enlace <Link href={'https://pay.hotmart.com/T73330605X?off=fjtmlzyw'} target='_blank' className='underline text-blue-200 hidden_lazy lazy'>https://pay.hotmart.com/T73330605X?checkoutMode=2&off=tld2suya</Link></p>
         <p className='hidden_lazy lazy'>Al realizar el pago, recibirás un correo electrónico con el asunto <strong> {`"Hotmart compra aprobada"`}</strong>, que te brindará acceso inmediato a tu curso <strong>{`"El Arte de las Envolturas Coreanas"`}</strong>.</p>
         <p className='font-bold text-xl hidden_lazy lazy'>¡Listo para comenzar tu viaje en el mundo floral!</p>
       </div>
